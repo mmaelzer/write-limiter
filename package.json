@@ -1,0 +1,26 @@
+{
+  "name": "write-limiter",
+  "version": "0.1.0",
+  "description": "A stream that provides time-based limits on stream writes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmaelzer/write-limiter"
+  },
+  "keywords": [
+    "stream",
+    "streams",
+    "writes",
+    "throttle",
+    "limit"
+  ],
+  "author": "Mike Maelzer <mmaelzer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmaelzer/write-limiter/issues"
+  },
+  "homepage": "https://github.com/mmaelzer/write-limiter"
+}
