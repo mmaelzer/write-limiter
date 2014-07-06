@@ -4,9 +4,9 @@ write-limiter
 A node.js stream implementation that takes a stream and throttles the writes in a time-based fashion.
   
 ### Install
-
-  npm install write-limiter
-  
+```
+npm install write-limiter
+```  
 ----------------------  
 
 ### Usage
