@@ -1,6 +1,6 @@
 {
   "name": "write-limiter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stream that provides time-based limits on stream writes.",
   "main": "index.js",
   "scripts": {
