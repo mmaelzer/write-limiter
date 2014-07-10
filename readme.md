@@ -23,7 +23,7 @@ var otherLimiter = new Limiter({
 
 **Constructor(Number|Object)**: The constructor takes either a single `number` argument or an `object` with an `interval` property. Passing an `object` allows for passing along node.js `Stream` arguments to the underlying through stream parent class.  
   
-The provided `number` or `interval` property represents how long to wait between writes. Data written to the limiter outside of the allowable interval is discarded.
+The provided `number` or `interval` property represents how long, in milliseconds, to wait between writes.
 
 ----------------------  
 ### Example
