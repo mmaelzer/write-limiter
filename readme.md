@@ -3,6 +3,9 @@ write-limiter
   
 A node.js stream implementation that takes a stream and throttles the writes in a time-based fashion.
   
+[![build status](https://secure.travis-ci.org/mmaelzer/write-limiter.png)](http://travis-ci.org/mmaelzer/write-limiter)
+[![Coverage Status](https://coveralls.io/repos/mmaelzer/write-limiter/badge.svg?branch=master&service=github)](https://coveralls.io/github/mmaelzer/write-limiter?branch=master)
+
 ### Install
 ```
 npm install write-limiter

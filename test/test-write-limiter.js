@@ -43,7 +43,7 @@ exports.limiterObjConstructorTest = function(t) {
     t.equal(called, 4);
     clearTimeout(timeout);
     t.done();
-  }, 210);
+  }, 200);
 };
 
 exports.limiterFinish = function(t) {
