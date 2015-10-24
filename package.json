@@ -1,10 +1,11 @@
 {
   "name": "write-limiter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A stream that provides time-based limits on stream writes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/nodeunit test/test-write-limiter.js",
+    "coveralls": "node_modules/.bin/jscoverage index.js && USE_COVERAGE=1 node_modules/.bin/nodeunit --reporter=lcov test/test-write-limiter.js | node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/mmaelzer/write-limiter/issues"
   },
-  "homepage": "https://github.com/mmaelzer/write-limiter"
+  "homepage": "https://github.com/mmaelzer/write-limiter",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "jscoverage": "^0.6.0",
+    "nodeunit": "^0.9.1"
+  }
 }
